@@ -24,8 +24,11 @@ reveal-md slides.md --print slides.pdf --print-size 1920x1080
 # Développement
 
 Ce dépôt utilise les Github Actions pour générer des releases automatiquement.
+
 Pour cela, sur la branche `main`, tager le commit courant avec `git tag v0.1.1` puis pousser le tag avec `git push --tag`
+
 Cela déclenchera le workflow de CI/CD.
+
 Attention à bien spécifier le nom du fichier markdown dans `.github/workflows/release.yml`
 
 ## Auteur
